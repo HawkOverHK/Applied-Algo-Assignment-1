@@ -58,7 +58,7 @@ list_of_results = []
 
 for size in list_sizes_8:
     executed_time = [] # List to store execution time of executed algo
-    times_to_run = 20 # Number of times to execute the algo
+    times_to_run = 30 # Number of times to execute the algo
     test_case = casemaker(size)
 
     for _ in range(times_to_run):
